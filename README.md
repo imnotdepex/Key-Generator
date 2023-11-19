@@ -38,7 +38,9 @@ If flags for saving to a file or GitHub are set, respectively, saves the key to 
 ### repo_owner: GitHub repository owner's username or organization name. Required if save_to_github is set to true.
 
 ### repo_name: GitHub repository name. Required if save_to_github is set to true.
-file_path_in_repo: Path to the file in the GitHub repository where the key will be stored. Required if save_to_github is set to true.
-output_file_path: Path to the local file where the key will be saved. Required if save_to_file is set to true.
+
+### file_path_in_repo: Path to the file in the GitHub repository where the key will be stored. Required if save_to_github is set to true.
+
+### output_file_path: Path to the local file where the key will be saved. Required if save_to_file is set to true.
 
 Adjust the values in config.json according to your needs. If you want to save the key to GitHub, ensure to provide a valid GitHub personal access token, repository owner, repository name, and file path in the repository. If you want to save the key to a local file, provide the path for output_file_path. Adjust the key_length based on your requirements. Set the flags save_to_github and save_to_file accordingly.
