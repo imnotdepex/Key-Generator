@@ -33,7 +33,7 @@ If flags for saving to a file or GitHub are set, respectively, saves the key to 
 
 ### save_to_file: A boolean flag indicating whether to save the generated key to a local file. true to enable, false to disable.
 
-### github_token: GitHub personal access token. Required if save_to_github is set to true.
+### github_token: GitHub personal access token. Required if save_to_github is set to true. You can get it [Here](https://github.com/settings/tokens)
 
 ### repo_owner: GitHub repository owner's username or organization name. Required if save_to_github is set to true.
 
