@@ -16,18 +16,18 @@ Takes a file path and content as input.
 Generates a random key of a specified length.
 Utilizes the uuid module to create a unique identifier, converts it to a string, and formats it.
 
-##Updating GitHub File:
+## Updating GitHub File:
 Updates the content of a file in the GitHub repository.
 Uses the PyGithub library to interact with the GitHub API.
 
-##Main Execution:
+## Main Execution:
 The main function where the core logic of the script is executed.
 Loads configuration, generates a key, prints it to the console.
 If flags for saving to a file or GitHub are set, respectively, saves the key to a file and updates it on GitHub.
 # How to Use:
 ## config.json Explanation:
 
-###key_length: Defines the length of the generated random key.
+### key_length: Defines the length of the generated random key.
 
 ### save_to_github: A boolean flag indicating whether to save the generated key to a GitHub repository. true to enable, false to disable.
 
